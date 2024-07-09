@@ -1,0 +1,309 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(0, 0, 33);
+    color: white;
+    font-style: poppins;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 70px;
+    background-color: rgb(5, 5, 58);
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+
+}
+
+.srci{
+    max-width: 31%; /* Adjust the percentage as needed */
+    height: auto; /* Maintain aspect ratio */
+    display: block; /* Prevents the image from breaking out of its container */
+    margin: 0 auto; /* Centers the image horizontally */
+}
+nav ul li {
+    list-style: none;
+    margin: 0 23px;
+}
+
+.left {
+    font-size: 1.5rem;
+}
+
+.firstSection {
+    justify-content: space-around;
+    display: flex;
+    margin: 23px 0;
+}
+
+.firstSection>div {
+    width: 30%;
+}
+
+.leftSection {
+    font-size: 50px;
+    margin: 50px 0;
+}
+
+.rightSection {
+    margin: 50px 0;
+    font-size: 30px;
+}
+
+.dev_pic img {
+    width: 380%;
+    margin: 50px 0;
+}
+
+.purple {
+    color: blueviolet;
+}
+
+nav li a {
+
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+}
+
+nav li a:hover {
+    text-decoration: none;
+    font-weight: bold;
+    color: aqua;
+}
+
+.c_items {
+    margin-left: 15px;
+}
+
+.c_items h2 {
+    margin-top: 15px;
+}
+
+.Certifications h1 {
+    margin-top: 15px;
+    margin-left: 350px;
+    text-decoration: solid;
+}
+
+.c_items p {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    text-decoration: underline;
+}
+
+.Certifications {
+    margin-top: 15px;
+    
+}
+
+.skillcontainer h2 {
+
+    font-family: poppins;
+    margin-top: 100px;
+    margin: 15px;
+    margin-left: 35px;
+}
+
+.skills {
+    width: 265px;
+    height: 6px;
+    border-color: red;
+   
+}
+
+.skills {
+    margin-left: 15px;
+    background-color: red;
+
+}
+
+.skill {
+    margin-left: 15px;
+    display: flex;
+    align-items: center;
+    font-size: 23px;
+}
+
+#element {
+    color: blueviolet;
+}
+
+
+footer {
+    background-color: rgb(13, 3, 59);
+    margin-top: 198px;
+
+}
+
+.footer {
+
+    display: flex;
+    justify-content: safe;
+}
+.footer li{
+    margin: 10px;
+    list-style: none;
+    display: flex;
+}
+
+.footer div{
+    font-size: 10px;
+    margin-right: 350px;
+}
+footer  .footer-rights{
+    text-align: center;
+}
+.buttons{
+    margin-top: 25px;
+  border-radius: 22px;
+  color: rgb(15, 15, 15);
+  font-weight: bold;
+  font-size:  21px;
+  margin: 0 3 px;
+  cursor: pointer;
+}
+.btn {
+    padding: 9px 14px;
+    border-radius: 22px;
+    color: rgb(15, 15, 15);
+    background-color: #3F51B5;
+    font-weight: bold;
+    font-size: 21px;
+    margin: 0 3 px;
+    cursor: pointer;
+  }
+.logo{
+    height: 3vh;
+}
+.para {
+    margin: 54px;
+    border-color: #0d0d3a;
+    border-width: 0.25em;
+    border-style: outset;
+    font-size: 24px;
+}
+.skillcontainer {
+    display: flex;
+    justify-content: space-evenly;
+}
+.degree{
+  
+    display: flex;
+    margin: 76px;
+    margin-top: 6px;
+}
+.degree div{
+    border-color: #0d0d3a;
+    border-width: 0.25em;
+    border-style: solid;
+    font-size: 24px;
+    margin: 86px 52px;
+    padding: 29px;
+}
+.contactform {
+    padding: 0 30px;
+    padding-top: 135px;
+  
+  }
+  
+  
+  .contactform h1 {
+    font-family: 'Fira Sans', sans-serif;
+    foont-weight: bold;
+    text-align: center;
+    color: aqua;
+  
+  }
+  
+  
+  .contactform form div {
+    padding: 10px 0;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  
+  .contactform form div input {
+    width: 26vw;
+    border-radius: 5px;
+    margin: 6px 0 0 0;
+    padding: 3px;
+  }
+  
+  
+  
+  #emailHelp {
+    font-size: 8px;
+    color: rgb(207, 207, 219);
+    margin: 0 5px;
+  }
+  
+  #form-check {
+    flex-direction: row;
+  }
+  
+  #form-check input {
+    width: 24px;
+    margin: 3px 0;
+  }
+form label{
+    color: aqua;
+}  
+.form-text{
+    color: aqua;
+}
+.footer-second ul li a{
+    text-decoration: none;
+}
+
+.footer-second ul li a{
+    color: lightseagreen;
+}
+
+@media screen and (max-width: 908px) {
+ 
+    
+  .firstSection{
+    flex-direction: column;
+  }
+  .footer{
+    flex-direction: column;
+    justify-content: left;
+
+  }
+  footer{
+    background-color: rgb(0, 0, 33);
+  }
+   nav{
+    background-color: rgb(0, 0, 33);
+    justify-content: left;
+
+  }
+  .Certifications h1{
+justify-content: left;
+  }
+  .skillcontainer{
+    flex-direction: column;
+  }
+  .degree{
+    flex-direction: column;
+    display: contents;
+  }
+  .degree div{
+    border: none;
+  }
+  .skillcontainer h2{
+    margin-top: 66px;
+    
+  }
+
+}
